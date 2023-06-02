@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Abcreed21/LGMVIP-Web-Task-2",
+  "homepage": "https://abcreed21.github.io/LGMVIP-Web-Task-2",
   "name": "LGMVIP-Web-Task-2",
   "version": "1.0.0",
   "description": "Data Fetcher",
@@ -20,6 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
