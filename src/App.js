@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <h1>Nike</h1>
+        <h1>Facebook Employees List</h1>
         <button onClick={getUsers}>Get Users</button>
       </nav>
       {loading ? (
